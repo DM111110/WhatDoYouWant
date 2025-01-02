@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What do you want</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Title section -->
+    <div class="title">Что ты хочешь?</div>
+    <div class="content">
+      <br>
+      <h3>Что ты хочешь — это платформа, на которой пользователи могут делиться идеями программ, приложений или игр, которые они хотели бы видеть на своих устройствах. Будь то телефон, ПК или Веб, пользователи могут отправлять свои идеи и помогать формировать программное обеспечение, которое они хотят видеть в будущем.     </h3>
+      <!-- Registration form -->
+      <form>
+        <div class="user-details">
+          <!-- Input for Full Name -->
+          <div class="input-box">
+            <span class="details">Имя</span>
+            <input type="text" id="name" placeholder="Напишите свое имя" required>
+          </div>
+          <!-- Input for Username -->
+          <!-- Input for Password -->
+          <div class="input-box">
+            <span class="details">Имя идеи</span>
+            <input type="text" id="idea_name" placeholder="Напишите имя идеи" required>
+          </div>
+        </div>
+        <div class="gender-details">
+          <!-- Radio buttons for gender selection -->
+          <input type="checkbox" name="platform" id="dot-1" value="PC/Desktop">
+          <input type="checkbox" name="platform" id="dot-2" value="Mobile">
+          <input type="checkbox" name="platform" id="dot-3" value="Web">
+
+          <span class="gender-title">Платформа</span>
+          <div class="category">
+            <!-- Label for Male -->
+            <label for="dot-1">
+              <span class="dot one"></span>
+              <span class="gender">ПК</span>
+            </label>
+            <!-- Label for Female -->
+            <label for="dot-2">
+              <span class="dot two"></span>
+              <span class="gender">Мобильный</span>
+            </label>
+            <!-- Label for Prefer not to say -->
+            <label for="dot-3">
+              <span class="dot three"></span>
+              <span class="gender">Веб</span>
+            </label>
+          </div>
+          <div class="textarea">
+            <span class="gender-title">Описание вашей идеи</span><br><br>
+            <textarea rows="5" id="description" placeholder="Описание"></textarea>
+          </div>
+        </div>
+        <!-- Submit button -->
+        <div class="button" onclick="sendMail()">
+          <input type="submit" value="Отправить">
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

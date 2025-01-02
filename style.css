@@ -1,0 +1,84 @@
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body Styles */
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Arrange elements (heading and buttons) vertically */
+    justify-content: center; /* Center all content vertically */
+    align-items: center; /* Center content horizontally */
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+/* Heading Styles */
+h1 {
+    text-align: center;
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+/* Button Container Styles */
+.button-container {
+    display: flex; /* Arrange buttons in a horizontal row */
+    justify-content: center; /* Center buttons horizontally */
+    gap: 20px; /* Add space between buttons */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Button Styles */
+#am_button{
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    background: linear-gradient(to bottom, 
+    #d92d2a 33.33%, /* Red */
+    #0033a0 33.33%, 
+    #0033a0 66.66%, /* Blue */
+    #ff7f32 66.66%); /* Orange */
+}
+
+#ru_button {
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    background: linear-gradient(to bottom, 
+        #ffffff 33.33%, /* White */
+        #0000ff 33.33%, 
+        #0000ff 66.66%, /* Blue */
+        #d52b1e 66.66%); /* Red */
+}
+
+#english-flag {
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    background: url('./img.png');
+}
+
+#block2 {
+    display: inline;
+}
+
+#block {
+    background-color: white;
+    width: 500px;
+    height: 250px;
+}

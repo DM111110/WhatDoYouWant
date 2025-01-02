@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What do you want</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Title section -->
+    <div class="title">What do you want?</div>
+    <div class="content">
+      <br>
+      <h3>"What Do You Want" is a platform where users can share ideas for programs, apps, or games they wish existed on their devices. Whether it's for a phone, PC, or gaming console, users can submit their ideas and help shape the software they want to see in the future.      </h3>
+      <!-- Registration form -->
+      <form>
+      <div class="user-details">
+          <!-- Input for Full Name -->
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" id="name" placeholder="Enter your name" required>
+          </div>
+          <!-- Input for Username -->
+          <!-- Input for Password -->
+          <div class="input-box">
+            <span class="details">Idea name</span>
+            <input type="text" id="idea_name" placeholder="Enter idea name" required>
+          </div>
+        </div>
+        <div class="gender-details">
+          <!-- Radio buttons for gender selection -->
+          <input type="checkbox" name="platform" id="dot-1" value="PC/Desktop">
+          <input type="checkbox" name="platform" id="dot-2" value="Mobile">
+          <input type="checkbox" name="platform" id="dot-3" value="Web">
+
+          <span class="gender-title">Platform/Device</span>
+          <div class="category">
+            <!-- Label for Male -->
+            <label for="dot-1">
+              <span class="dot one"></span>
+              <span class="gender">PC/Desktop</span>
+            </label>
+            <!-- Label for Female -->
+            <label for="dot-2">
+              <span class="dot two"></span>
+              <span class="gender">Mobile</span>
+            </label>
+            <!-- Label for Prefer not to say -->
+            <label for="dot-3">
+              <span class="dot three"></span>
+              <span class="gender">Web</span>
+            </label>
+          </div>
+          <div class="textarea">
+            <span class="gender-title">Description of your idea</span><br><br>
+            <textarea rows="5" id="description" placeholder="Description"></textarea>
+          </div>
+        </div>
+        <!-- Submit button -->
+        <div class="button">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What do you want</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Title section -->
+    <div class="title">Ի՞նչ եք ցանկանում</div>
+    <div class="content">
+      <br>
+      <h3>«What Do You Want»-ը հարթակ է, որտեղ օգտատերերը կարող են կիսվել գաղափարներով ծրագրերի, հավելվածների կամ խաղերի մասին, որոնք ցանկանում են, որ գոյություն ունենային իրենց սարքերում: Անկախ նրանից, թե դա հեռախոսի, համակարգչի կամ խաղային վահանակի համար է, օգտվողները կարող են ներկայացնել իրենց գաղափարները և օգնել ձևավորել այն ծրագրերը, որոնք նրանք ցանկանում են տեսնել ապագայում:</h3>
+      <!-- Registration form -->
+      <form>
+        <div class="user-details">
+          <!-- Input for Full Name -->
+          <div class="input-box">
+            <span class="details">Անուն</span>
+            <input type="text" id="name" placeholder="Գրեք ձեր անունը" required>
+          </div>
+          <!-- Input for Username -->
+          <!-- Input for Password -->
+          <div class="input-box">
+            <span class="details">Գաղափարի անունը</span>
+            <input type="text" id="idea_name" placeholder="Գրեք գաղափարի անունը" required>
+          </div>
+        </div>
+        <div class="gender-details">
+          <!-- Radio buttons for gender selection -->
+          <input type="checkbox" name="platform" id="dot-1" value="PC/Desktop">
+          <input type="checkbox" name="platform" id="dot-2" value="Mobile">
+          <input type="checkbox" name="platform" id="dot-3" value="Web">
+          <span class="gender-title">Հարթակ</span>
+          <div class="category">
+            <!-- Label for Male -->
+            <label for="dot-1">
+              <span class="dot one"></span>
+              <span class="gender">Համակարգիչ</span>
+            </label>
+            <!-- Label for Female -->
+            <label for="dot-2">
+              <span class="dot two"></span>
+              <span class="gender">Հեռախոս</span>
+            </label>
+            <!-- Label for Prefer not to say -->
+            <label for="dot-3">
+              <span class="dot three"></span>
+              <span class="gender">Վեբ</span>
+            </label>
+          </div>
+          <div class="textarea">
+            <span class="gender-title">Ձեր գաղափարի նկարագրությունը</span><br><br>
+            <textarea rows="5" id="description" placeholder="Նկարագրություն"></textarea>
+          </div>
+        </div>
+        <!-- Submit button -->
+        <div class="button">
+          <input type="submit" value="Ուղարկել">
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
