@@ -14,25 +14,25 @@
       <br>
       <h3>Что ты хочешь — это платформа, на которой пользователи могут делиться идеями программ, приложений или игр, которые они хотели бы видеть на своих устройствах. Будь то телефон, ПК или Веб, пользователи могут отправлять свои идеи и помогать формировать программное обеспечение, которое они хотят видеть в будущем.     </h3>
       <!-- Registration form -->
-      <form>
+      <form target="_blank" action="https://formsubmit.co/davitmkrtchyan111110@gmail.com" method="POST">      
         <div class="user-details">
           <!-- Input for Full Name -->
           <div class="input-box">
             <span class="details">Имя</span>
-            <input type="text" id="name" placeholder="Напишите свое имя" required>
+            <input type="text" name="name" placeholder="Напишите свое имя" required>
           </div>
           <!-- Input for Username -->
           <!-- Input for Password -->
           <div class="input-box">
             <span class="details">Имя идеи</span>
-            <input type="text" id="idea_name" placeholder="Напишите имя идеи" required>
+            <input type="text" name="idea_name" placeholder="Напишите имя идеи" required>
           </div>
         </div>
         <div class="gender-details">
           <!-- Radio buttons for gender selection -->
-          <input type="checkbox" name="platform" id="dot-1" value="PC/Desktop">
-          <input type="checkbox" name="platform" id="dot-2" value="Mobile">
-          <input type="checkbox" name="platform" id="dot-3" value="Web">
+          <input type="checkbox" name="Platform" id="dot-1" value="PC/Desktop">
+          <input type="checkbox" name="Platform" id="dot-2" value="Mobile">
+          <input type="checkbox" name="Platform" id="dot-3" value="Web">
 
           <span class="gender-title">Платформа</span>
           <div class="category">
@@ -54,7 +54,7 @@
           </div>
           <div class="textarea">
             <span class="gender-title">Описание вашей идеи</span><br><br>
-            <textarea rows="5" id="description" placeholder="Описание"></textarea>
+            <textarea rows="5" name="description" placeholder="Описание"></textarea>
           </div>
         </div>
         <!-- Submit button -->
